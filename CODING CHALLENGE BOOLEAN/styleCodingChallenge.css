@@ -1,0 +1,74 @@
+body{
+  background-image:url(background.jpg);
+  background-size: cover;
+}
+
+*{
+  box-sizing:border-box;
+  margin:auto;
+}
+
+.container1{
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  margin: 2.5% 15% 2.5% 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+} /* VALORI CHE DEFINISCONO LA DIMENSIONE DEL BOX TRASLUCIDO*/
+
+#lim{
+  width: 30%;
+  margin-left: 35%;
+}
+
+#text-header{
+  text-align: center;
+  color: #7fff00;
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.container2{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1%;
+} /*VALORI CHE DEFINISCO L'IDENTAZIONE DEL
+  CONTENUTO DELLA PAGINA(ESCLUSO HEADER)*/
+
+.green-box{
+  background-color:#7fff00 ;
+  height: 40px;
+  padding-left: 27%;
+  padding-top: 1.25%;
+}
+
+main section{
+  color: white;
+}
+
+.status-veicoli span{
+  display: inline-block;
+  font: Arial;
+  font-size: 25px;
+}
+
+#first-charge{
+  height: 20px;
+  margin-right: 75%;
+  background-color: orange;
+  border-radius: 5px;
+}
+
+#second-charge{
+  height: 20px;
+  margin-right: 45%;
+  background-color: green;
+  border-radius: 5px;
+}
+
+#third-charge{
+  height: 20px;
+  margin-right: 86%;
+  background-color: red;
+  border-radius: 5px;
+}
